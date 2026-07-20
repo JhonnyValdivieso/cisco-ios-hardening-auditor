@@ -1,4 +1,4 @@
-\# 🛡️ Cisco IOS Hardening Auditor
+\🛡️ Cisco IOS Hardening Auditor
 
 
 
@@ -10,7 +10,7 @@ This tool parses router/switch configurations using optimized Regular Expression
 
 
 
-\## 📊 Key Security Controls Audited
+\ 📊 Key Security Controls Audited
 
 The tool validates 11 critical baseline rules aligned with hardening frameworks:
 
@@ -30,7 +30,7 @@ The tool validates 11 critical baseline rules aligned with hardening frameworks:
 
 
 
-\## 🚀 How It Works \& Architecture
+\ 🚀 How It Works \& Architecture
 
 
 
@@ -46,11 +46,11 @@ The tool validates 11 critical baseline rules aligned with hardening frameworks:
 
 
 
-\## 🛠️ Installation \& Usage
+\ 🛠️ Installation \& Usage
 
 
 
-\### Prerequisites
+\ Prerequisites
 
 \* Python 3.x
 
@@ -58,7 +58,7 @@ The tool validates 11 critical baseline rules aligned with hardening frameworks:
 
 
 
-\### Running the Tool
+\ Running the Tool
 
 1\. Clone this repository:
 
