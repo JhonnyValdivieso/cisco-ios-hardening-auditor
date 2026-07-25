@@ -1,6 +1,12 @@
 
 #  Cisco IOS Hardening Auditor
 
+> **Project Type:** Infrastructure & Network Security Tool / Automation  
+> **Role:** Security Engineer / Network Auditor  
+> **Authors:** Jhonny Valdivieso and Ricardo Vargas
+> **Target Scope:** Cisco IOS Switches & Routers (CIS Benchmark Alignment)  
+> **Tech Stack:** Python / Shell, Cisco CLI, Network Security
+
 An automated Python tool designed for security analysts and network administrators to audit Cisco IOS configuration files against industry hardening standards. 
 
 This tool parses router/switch configurations using optimized Regular Expressions (RegEx), evaluates critical security controls, and generates a compliance score along with a professional **Markdown Remediation Report**.
