@@ -26,6 +26,12 @@ The tool validates critical baseline rules aligned with hardening frameworks:
 
 ---
 
+## Architecture & Hardening Overview
+
+![Cisco IOS Hardening Lab Overview](assets/network_hardening_overview.png)
+
+---
+
 ##  How It Works & Architecture
 
 1. **Scanner Stage:** Reads and cleans raw configuration text, stripping native Cisco comments (`!`, `#`) and blank lines.
