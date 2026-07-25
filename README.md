@@ -50,15 +50,18 @@ cisco-ios-hardening-auditor/
 
 ---
 
-###  Usage
+## Quick Start & Usage
 
-1. Place your target Cisco configuration file in the project directory (default expected filename in script main block: `router_vulnerable.conf`).
-2. Execute the script from your terminal:
+### Prerequisites
+* Python 3.8 or higher installed.
 
-```bash
-python net_hardener.py
-```
-
+### Installation & Execution
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JhonnyValdivieso/cisco-ios-hardening-auditor.git
+   cd cisco-ios-hardening-auditor
+2. Run the auditor against a sample Cisco configuration file:
+3. python auditor.py --config sample_cisco_ios.cfg
 
 ---
 
