@@ -1,11 +1,11 @@
 
-# 🛡️ Cisco IOS Hardening Auditor
+#  Cisco IOS Hardening Auditor
 
 An automated Python tool designed for security analysts and network administrators to audit Cisco IOS configuration files against industry hardening standards. 
 
 This tool parses router/switch configurations using optimized Regular Expressions (RegEx), evaluates critical security controls, and generates a compliance score along with a professional **Markdown Remediation Report**.
 
-## 📊 Key Security Controls Audited
+##  Key Security Controls Audited
 
 The tool validates critical baseline rules aligned with hardening frameworks:
 
@@ -17,7 +17,7 @@ The tool validates critical baseline rules aligned with hardening frameworks:
 
 ---
 
-## 🚀 How It Works & Architecture
+##  How It Works & Architecture
 
 1. **Scanner Stage:** Reads and cleans raw configuration text, stripping native Cisco comments (`!`, `#`) and blank lines.
 2. **Analysis Stage:** Utilizes pre-compiled, case-insensitive regular expressions to track session block states (such as active VTY submodes) and flag global misconfigurations.
@@ -25,7 +25,7 @@ The tool validates critical baseline rules aligned with hardening frameworks:
 
 ---
 
-### 📂 Directory Setup
+###  Directory Setup
 
 Clone the repository and ensure your local workspace matches this clean structure:
 
@@ -41,7 +41,7 @@ cisco-ios-hardening-auditor/
 
 ---
 
-### 🚀 Usage
+###  Usage
 
 1. Place your target Cisco configuration file in the project directory (default expected filename in script main block: `router_vulnerable.conf`).
 2. Execute the script from your terminal:
@@ -53,9 +53,9 @@ python net_hardener.py
 
 ---
 
-## 📋 Sample Outputs
+##  Sample Outputs
 
-### 🖥️ Terminal Dashboard View
+###  Terminal Dashboard View
 
 When executed, the script outputs a clean, structured compliance dashboard directly to the CLI interface:
 
@@ -75,13 +75,13 @@ RULE-04    | Centralized Logging (Syslog)   | MEDIUM     | 🔴 FAIL
 RULE-05    | Unsecure MOTD Banner           | LOW        | 🟢 PASS   
 ======================================================================
 
-[💾] Markdown report successfully saved to: 'Audit_Report.md'
+ Markdown report successfully saved to: 'Audit_Report.md'
 
 ```
 
 ---
 
-### 📝 Generated Executive Report (`Audit_Report.md`)
+###  Generated Executive Report (`Audit_Report.md`)
 
 The script automatically writes a complete remediation plan. Failed rules explicitly display their exact risk descriptions and the required Cisco IOS mitigation commands:
 
@@ -95,6 +95,6 @@ The script automatically writes a complete remediation plan. Failed rules explic
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
