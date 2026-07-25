@@ -1,6 +1,9 @@
 
 #  Cisco IOS Hardening Auditor
-
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Scope](https://img.shields.io/badge/Scope-Cisco%20IOS-orange?logo=cisco&logoColor=white)
+![Compliance](https://img.shields.io/badge/Compliance-CIS%20Benchmark-green)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 > **Project Type:** Infrastructure & Network Security Tool / Automation  
 > **Role:** Security Engineer / Network Auditor  
 > **Authors:** Jhonny Valdivieso & Ricardo Vargas  
