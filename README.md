@@ -3,7 +3,7 @@
 
 > **Project Type:** Infrastructure & Network Security Tool / Automation  
 > **Role:** Security Engineer / Network Auditor  
-> **Authors:** Jhonny Valdivieso and Ricardo Vargas
+> **Authors:** Jhonny Valdivieso & Ricardo Vargas  
 > **Target Scope:** Cisco IOS Switches & Routers (CIS Benchmark Alignment)  
 > **Tech Stack:** Python / Shell, Cisco CLI, Network Security
 
