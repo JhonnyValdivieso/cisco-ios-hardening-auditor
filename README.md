@@ -63,6 +63,7 @@ cisco-ios-hardening-auditor/
 2. Run the auditor against a sample Cisco configuration file:
   ```bash
    python net_hardener.py router_vulnerable.confg
+   ```
 
 ---
 
