@@ -109,6 +109,10 @@ The script automatically writes a complete remediation plan. Failed rules explic
 
 ---
 
-##  License
+## License & Legal Disclaimer
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. You are free to use, modify, and distribute this material for educational and defensive security purposes.
+
+### Legal & Educational Disclaimer
+> **Notice:** This tool is designed for authorized network auditing and security hardening assessment purposes only. Ensure you have explicit authorization before running audit operations against active enterprise infrastructure.
